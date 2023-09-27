@@ -29,7 +29,7 @@ You can use SPM12,CAT12 to preprocess data
 
 
 
-# How to train
+## How to train
 Modify the code in trainclinical.py
 
 with the following two lines of code
@@ -40,7 +40,7 @@ with the following two lines of code
 
 The weights are stored in the weights file
 
-# How to transfer
+## How to transfer
 
 Modify the code in trainclinical.py as follows:
 
