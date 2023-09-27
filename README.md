@@ -7,8 +7,8 @@ This is the official implementation of Visual-Attribute Prompt Learning for Prog
 - [Requirements](#requirements)
 - [Dataset Preparation](#dataset-preparation)
 - [Pretrained Model](#pretrained-model)
-- [How to train](how2train)
-- [How to transfer](how2transfer)
+- [How to train](howtotrain)
+- [How to transfer](howtotransfer)
 
 ## Requirements
 ```bash
