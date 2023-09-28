@@ -7,8 +7,8 @@ This is the official implementation of Visual-Attribute Prompt Learning for Prog
 - [Requirements](#requirements)
 - [Dataset Preparation](#dataset-preparation)
 - [Pretrained Model](#pretrained-model)
-- [How to train](#howtotrain)
-- [How to transfer](#howtotransfer)
+- [How to train](#how-to-train)
+- [How to transfer](#how-to-transfer)
 
 ## Requirements
 ```bash
@@ -34,7 +34,7 @@ Modify the code in trainclinical.py
 
 with the following two lines of code
 
-`ld_helper = LoaderHelper(task=Task.NC_v_AD) # which defineds the task`
+`ld_helper = LoaderHelper(task=Task.NC_v_AD)` # which defineds the task
 
 `model_uuid = train_camull(ld_helper, epochs=50)` # function to train the model
 
