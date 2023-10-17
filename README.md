@@ -9,6 +9,7 @@ This is the official implementation of Visual-Attribute Prompt Learning for Prog
 - [Pretrained Model](#pretrained-model)
 - [How to train](#how-to-train)
 - [How to transfer](#how-to-transfer)
+- [Acknowledgement](#acknowledgement)
 
 ## Requirements
 ```bash
@@ -18,10 +19,10 @@ pip install -r requirements.txt
 ```
 
 ## Dataset Preparation
-The data can be accessed in http://adni.loni.usc.edu/data-samples/access-data/ 
+The data can be accessed at http://adni.loni.usc.edu/data-samples/access-data/ 
 You can use SPM12,CAT12 to preprocess data
 
-## Pretrained Model
+## Pre-trained Model
 | Task | Link |
 |------|------|
 | AD v.s. NC | [OneDrive](https://cuhko365-my.sharepoint.com/:u:/g/personal/222010514_link_cuhk_edu_cn/ESvGnEWjvylGgzMiFYhZdo0BVwQqx37KJEWBFvfZ45NosA?e=fOx6rr)|
@@ -52,4 +53,7 @@ Modify the code in trainclinical.py as follows:
 `model_uuid  = train_camull(ld_helper, model=model, epochs=50)`
 
 `evaluate_model(DEVICE, model_uuid, ld_helper)`
+
+## Acknowledgement
+This project is built upon the foundations of several open-source codebases, including [camull-net](https://github.com/McSpooder/camull-net) and [VPT](https://github.com/kmnp/vpt).
 
