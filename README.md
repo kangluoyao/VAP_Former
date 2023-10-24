@@ -1,6 +1,7 @@
 # VAP-Former
 
-This is the official implementation of Visual-Attribute Prompt Learning for Progressive Mild Cognitive Impairment Prediction at MICCAI-2023
+This is the official implementation of [Visual-Attribute Prompt Learning for Progressive Mild Cognitive Impairment Prediction](https://arxiv.org/abs/2310.14158
+) at MICCAI-2023
 
 ## Table of Contents
 
