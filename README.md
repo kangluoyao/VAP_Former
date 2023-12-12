@@ -32,7 +32,7 @@ You can use SPM12,CAT12 to preprocess data
 
 
 ## How to train
-Modify the code in trainclinical.py
+Modify the code in train_modelclinical.py
 
 with the following two lines of code
 
